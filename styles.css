@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(192, 192, 192);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(185, 185, 185);
+    border: 1px solid black;
+    border-radius: 0.625rem;
+}
+
+h1 {
+    margin: 0.625rem 0.625rem;
+}
+
+label,
+#enter-task,
+#add_task_btn {
+    margin: 0.325rem 0.325rem;
+}
+
+.inline {
+    display: inline;
+}
